@@ -1,3 +1,6 @@
+/*
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+*/
 /*love_for_code*/
 /*code_for_love*/
 //Code_written_by: @AMIT KUMAR;
