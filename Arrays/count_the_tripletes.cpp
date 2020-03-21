@@ -1,3 +1,6 @@
+/*
+Given an array of distinct integers. The task is to count all the triplets such that sum of two elements equals the third element.
+*/
 /*love_for_code*/
 /*code_for_love*/
 //Code_written_by: @AMIT KUMAR;
