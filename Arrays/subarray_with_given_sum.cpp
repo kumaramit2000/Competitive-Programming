@@ -1,3 +1,6 @@
+/*
+Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S.
+*/
 /*love_for_code*/
 /*code_for_love*/
 //Code_written_by: @AMIT KUMAR;
