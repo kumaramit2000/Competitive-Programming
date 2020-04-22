@@ -1,4 +1,7 @@
 /*
+There are two singly linked lists of size N and M in a system. But, due to some programming error the end node of 
+one of the linked list got linked into one of the node of second list, forming a inverted Y shaped list. 
+Write a program to get the point where two linked lists intersect each other.
 */
 // { Driver Code Starts
 #include<iostream>
@@ -84,18 +87,10 @@ int intersectPoint(Node* head1, Node* head2)
 {
     Node* t1=head1;
     Node* t2=head2;
-    while(t1!=NULL)
+    while(t1!=t2)
     {
-        t1->data=-1*(t1->data);
-        t1=t1->next;
+        t1=(t1==NULL ? head2: t1->next);
+        t2=(t2==NULL ? head1: t2->next);
     }
-    while(t2!=NULL)
-    {
-        if(t2->data<0)
-        {
-            return -1*t2->data;
-        }
-        t2=t2->next;
-    }
-    return -1;
+    return t1->data;
 }
