@@ -55,5 +55,6 @@ int maxHeight(int height[],int width[],int length[],int n)
         if(ma<mh[i]) 
          ma=mh[i];
     }
+    v.clear();
     return ma;
 }
